@@ -1,0 +1,334 @@
+{
+    "name": "Buddy Ludo",
+    "description": "A strategic Ludo variant with special tiles and shortcuts",
+    "board": [
+        {
+            "position": 0,
+            "type": "start",
+            "safe": true,
+            "color": "red"
+        },
+        {
+            "position": 1,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 2,
+            "type": "boost",
+            "safe": false,
+            "boost": 2
+        },
+        {
+            "position": 3,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 4,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 5,
+            "type": "shortcut",
+            "safe": false,
+            "target": 12
+        },
+        {
+            "position": 6,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 7,
+            "type": "trap",
+            "safe": false,
+            "penalty": 2
+        },
+        {
+            "position": 8,
+            "type": "safe",
+            "safe": true
+        },
+        {
+            "position": 9,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 10,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 11,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 12,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 13,
+            "type": "start",
+            "safe": true,
+            "color": "green"
+        },
+        {
+            "position": 14,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 15,
+            "type": "boost",
+            "safe": false,
+            "boost": 2
+        },
+        {
+            "position": 16,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 17,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 18,
+            "type": "shortcut",
+            "safe": false,
+            "target": 25
+        },
+        {
+            "position": 19,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 20,
+            "type": "trap",
+            "safe": false,
+            "penalty": 2
+        },
+        {
+            "position": 21,
+            "type": "safe",
+            "safe": true
+        },
+        {
+            "position": 22,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 23,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 24,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 25,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 26,
+            "type": "start",
+            "safe": true,
+            "color": "yellow"
+        },
+        {
+            "position": 27,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 28,
+            "type": "boost",
+            "safe": false,
+            "boost": 2
+        },
+        {
+            "position": 29,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 30,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 31,
+            "type": "shortcut",
+            "safe": false,
+            "target": 38
+        },
+        {
+            "position": 32,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 33,
+            "type": "trap",
+            "safe": false,
+            "penalty": 2
+        },
+        {
+            "position": 34,
+            "type": "safe",
+            "safe": true
+        },
+        {
+            "position": 35,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 36,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 37,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 38,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 39,
+            "type": "start",
+            "safe": true,
+            "color": "blue"
+        },
+        {
+            "position": 40,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 41,
+            "type": "boost",
+            "safe": false,
+            "boost": 2
+        },
+        {
+            "position": 42,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 43,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 44,
+            "type": "shortcut",
+            "safe": false,
+            "target": 51
+        },
+        {
+            "position": 45,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 46,
+            "type": "trap",
+            "safe": false,
+            "penalty": 2
+        },
+        {
+            "position": 47,
+            "type": "safe",
+            "safe": true
+        },
+        {
+            "position": 48,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 49,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 50,
+            "type": "normal",
+            "safe": false
+        },
+        {
+            "position": 51,
+            "type": "normal",
+            "safe": false
+        }
+    ],
+    "homeStretch": {
+        "red": [
+            52,
+            53,
+            54,
+            55,
+            56
+        ],
+        "green": [
+            57,
+            58,
+            59,
+            60,
+            61
+        ],
+        "yellow": [
+            62,
+            63,
+            64,
+            65,
+            66
+        ],
+        "blue": [
+            67,
+            68,
+            69,
+            70,
+            71
+        ]
+    },
+    "startPositions": {
+        "red": 0,
+        "green": 13,
+        "yellow": 26,
+        "blue": 39
+    },
+    "specialTiles": {
+        "boost": {
+            "description": "Move an additional 2 spaces",
+            "effect": "boost",
+            "value": 2
+        },
+        "trap": {
+            "description": "Move back 2 spaces",
+            "effect": "penalty",
+            "value": 2
+        },
+        "shortcut": {
+            "description": "Jump to a specific position",
+            "effect": "teleport"
+        }
+    }
+}
